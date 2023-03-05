@@ -28,3 +28,20 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
     "styled-components": "^5.3.6"
   },
 ```
+### Estructura del proyecto
+
+![image](https://user-images.githubusercontent.com/25686886/222984998-e07e5ec7-8916-4dab-8b97-b642367d6642.png)
+
+1. __test__: Contiene una replica del folder src con los test de los componentes
+2. assets: continene las imagenes de splash e icono del proyecto junto con una carpeta imgs con las imagenes usadas en el proyecto
+3. src
+    - components: contienene las subs carpetas con los componentes usados en cada pantalla y los componentes usados en toda la app dentro de la carpeta UI
+    - constants: archivo con constantes usadas en la app
+    - hooks: carpeta para los hooks personalizados
+    - interfaces: carpeta con las interfaces utilizadas en el proyecto
+    - navigation: contiene el archivo con la nevegacion de la app
+    - screens: carpeta con las pantallas de la aplicacion
+    - theme: configuracion de styled components
+    - types: carpeta que contiene los archivos con los tipos para la configuracion de styled compoenents y los tipos para la config de variables de entorno.
+
+
