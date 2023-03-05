@@ -46,9 +46,7 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
 
 ### Instalación del proyecto en modo de desarrollo
 
-1. Acceder al repositorio del proyecto [aqui](https://github.com/lucassingh/tenpo-challenge) y descargar el proyecto zip o ejecutar en la consola de comando de su preferencia
-
-`git clone https://github.com/lucassingh/tenpo-challenge.git` 
+1. Acceder al repositorio del proyecto [aqui](https://github.com/lucassingh/tenpo-challenge) y descargar el proyecto zip o ejecutar en la consola de comando de su preferencia `git clone https://github.com/lucassingh/tenpo-challenge.git`
 2. `cd tenpo-challenge`
 3. `yarn install` o `npm install` para instalar las dependencias
 4. Abrir el proyecto en el editor de codigo de su preferencia y crear en la raiz del proyecto un archivo `.env` y crear la variable de entorno de GOOGLE_API_KEY 
