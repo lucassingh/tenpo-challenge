@@ -70,7 +70,7 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
 4. Abrir el proyecto en el editor de codigo de su preferencia y crear en la raiz del proyecto un archivo `.env` y crear la variable de entorno de GOOGLE_API_KEY 
 `GOOGLE_API_KEY=your_api_key`
     - Advertencia: si no tiene Google api key asociada a ningun proyecto, puede crear una siguiendo los pasos en el siguiente video tutorial [aqui](https://www.youtube.com/results?search_query=create+google+api+key+for+maps)
-    - Una vez generada la api key de Google pegarla em el archivo creado `.env` ( verificar que el archivo `.env` este incorporado en el archivo `gitignore` para no subirlo a un futuro repositorio
+    - Una vez generada la api key de Google pegarla en el archivo creado `.env` ( verificar que el archivo `.env` este incorporado en el archivo `gitignore` para no subirlo a un futuro repositorio
 5. Ejecutar `yarn start` o `npm start`
 6. Este proyecto fue generado con EXPO Cli, el build de desarrollo generara un codigo QR en la pantalla donde hay varias opciones para la ejecución
 
