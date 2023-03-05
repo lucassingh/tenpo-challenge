@@ -12,17 +12,17 @@ export const Header = () => {
     return (
         <>
             <UserNav />
-            <Container>
+            <ContainerHeader>
                 <ImageBackground source={imgHeader} style={{ width: '100%', height: '100%', }} />
-            </Container>
+            </ContainerHeader>
         </>
     );
 };
 
-const Container = styled.View`
+const ContainerHeader = styled.View`
     ${({ theme }) => css`
         width: 100%;
         height: 180px;
         background-color: ${theme.colors.background};
-    `}    
+    `}
 `

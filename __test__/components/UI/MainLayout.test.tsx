@@ -4,15 +4,17 @@ import styled from 'styled-components/native';
 import theme from "../../../src/theme";
 import { render } from '@testing-library/react-native'
 
-describe('Test Layout component <Main />', () => {
+describe('Test main Layout component <Main />', () => {
 
-        const Main = styled.View`
-            display: flex;
-            justify-content: center,
-            align-items: center;
-            flex: 1;
-            background-color: ${theme.light.colors.background};
-        `    
+     const Main = styled.View `  
+        height: auto;
+        flex: 1;
+        background-color: ${theme.light.colors.background};
+        border-top-right-radius: 35px;
+        border-top-left-radius: 35px;
+        margin-top: -55px;
+        padding: 10px 0px 30px 15px;   
+    `  
     
     it('Should match with snapshot', () => {
 

@@ -16,16 +16,16 @@ interface Props {
 export const HeaderSearch = ({title, icon}: Props) => {
     return (
         <>
-            <Container>
+            <ContainerSearch>
                 <Icon name={icon} size={35} color='#00BAA4' >
-                    <Text>{title}</Text>
+                    <TextSearch>{title}</TextSearch>
                 </Icon>
-            </Container>
+            </ContainerSearch>
         </>
     );
 };
 
-const Container = styled.View`
+const ContainerSearch = styled.View`
     ${({ theme }) => css`
         width: 100%;
         height: 170px;
@@ -35,11 +35,11 @@ const Container = styled.View`
         align-items: center;
     `}
 `
-const Text = styled.Text`
+const TextSearch = styled.Text`
     ${({ theme }) => css`
         font-size: 18px;
         font-weight: 500;
         width: 100%;
-        color: ${theme.colors.secondary}
+        color: ${theme.colors.secondary};
     `}    
 `

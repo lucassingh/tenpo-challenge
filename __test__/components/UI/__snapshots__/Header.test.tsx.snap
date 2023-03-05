@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header container in component <Header /> Should match with snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F2F2",
+        "height": 180,
+        "width": "100%",
+      },
+    ]
+  }
+/>
+`;

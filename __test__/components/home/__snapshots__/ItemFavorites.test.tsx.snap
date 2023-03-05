@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ItemContainer and text in component <ItemFavorites /> Should match with snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "borderColor": "#F2F2F2",
+        "borderRadius": 10,
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 150,
+        "marginRight": 10,
+        "width": 250,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Test ItemContainer and text in component <ItemFavorites /> Should match with snapshot 2`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#00BAA4",
+        "fontWeight": "700",
+      },
+    ]
+  }
+/>
+`;
