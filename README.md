@@ -44,4 +44,9 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
     - theme: configuracion de styled components
     - types: carpeta que contiene los archivos con los tipos para la configuracion de styled compoenents y los tipos para la config de variables de entorno.
 
+### Instalación del proyecto en modo de desarrollo
+
+1. Acceder al repositorio del proyecto [aqui](https://github.com/lucassingh/tenpo-challenge) y descargar el proyecto zip o
+`git clone https://github.com/lucassingh/tenpo-challenge.git` 
+
 
