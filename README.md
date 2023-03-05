@@ -5,6 +5,10 @@
 Este proyecto corresponde al challenge requerido para el proceso de entrevistas por Tenpo CL.
 EL proyecto consta de tres pantallas que muestran un home, una autorizacion del dispositivo y una pantalla para agregar una direccion en un mapa.
 
+![WhatsApp Image 2023-03-05 at 17 33 51](https://user-images.githubusercontent.com/25686886/222993518-4114c94f-c103-49a6-ac04-aae49ede1ec4.jpeg)
+
+![WhatsApp Image 2023-03-05 at 17 33 51 (1)](https://user-images.githubusercontent.com/25686886/222993520-d6c47195-19cc-43d5-9c3b-4d7bd65663e0.jpeg)
+
 ### Dependencias
 
 ```json
