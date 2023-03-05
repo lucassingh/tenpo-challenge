@@ -93,7 +93,14 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
 - Descargar la aplicación Expo Go en la app store [aqui](https://apps.apple.com/us/app/expo-go/id982107779)
 - Loguearse con el usario y pass de la cuenta que creamos anteriormente
 - Abrir la cámara del dispositivo y escanear el código QR de la consola para generar el build de la aplicación.
-   
+
+### Testing
+
+Este proyecto permite la creación de tests unitarios con la suite de `react-testing-library` y `jest`
+- Para ejecutar los test debemos correr el siguiente comando `yarn test` o `npm run test`
+- La ejecución de los test arroja la siguiente salida: 
+
+
 
 
 
