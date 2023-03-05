@@ -100,6 +100,8 @@ Este proyecto permite la creación de tests unitarios con la suite de `react-tes
 - Para ejecutar los test debemos correr el siguiente comando `yarn test` o `npm run test`
 - La ejecución de los test arroja la siguiente salida: 
 
+![image](https://user-images.githubusercontent.com/25686886/222989655-56360e64-0f89-4b01-9f34-e7e2800fee42.png)
+
 
 
 
