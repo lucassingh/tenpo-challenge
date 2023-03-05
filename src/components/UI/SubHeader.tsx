@@ -5,6 +5,11 @@ interface Props {
     subTitle: string;
 }
 
+/**
+ * This FC create a subtitle reusable
+ * @param param1 subtitle type string
+ * @returns sub header component
+ */
 export const SubHeader = ({ subTitle }: Props) => {
     return (
         <Text>{subTitle}</Text>

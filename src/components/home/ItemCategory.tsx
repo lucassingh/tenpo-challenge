@@ -7,6 +7,11 @@ interface Props {
     category: Category;
 }
 
+/**
+ * This FC return a card with information of each category item
+ * @param param category object type: Category
+ * @returns FC card category
+ */
 export const ItemCategory = ({ category }: Props) => {
     return (
         <ItemContainer>

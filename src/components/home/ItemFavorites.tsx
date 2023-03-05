@@ -8,6 +8,11 @@ interface Props {
     favorite: Favorite;
 }
 
+/**
+ * This FC return a card with information of each favorite item
+ * @param param Favorite object type: Favorite
+ * @returns FC card favorite
+ */
 export const ItemFavorite = ({ favorite }: Props) => {
     return (
         <ItemContainer>

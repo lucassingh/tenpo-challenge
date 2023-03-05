@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import styled, { css } from 'styled-components/native';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -9,6 +10,12 @@ interface Props {
     icon: string;
 }
 
+/**
+ * This FC return a CTA with title and icon for home screen
+ * @param param1 tltle type string
+ * @param param2 icon name type string
+ * @returns CTA button
+ */
 export const CTA = ({ text, icon }: Props) => {
 
     const navigation = useNavigation()

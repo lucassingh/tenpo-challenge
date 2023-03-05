@@ -5,6 +5,12 @@ interface Props {
     title?: string;
 }
 
+/**
+ * This FC create a second container layout reusable
+ * @param param1 Children props expect a components
+ * @param param2 optional param title type string
+ * @returns layout compoenent
+ */
 export const MainLayout: FC<PropsWithChildren<Props>> = ({children}) => {
     return (
         <Main>

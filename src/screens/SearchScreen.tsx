@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeaderSearch, PrimaryButton, SearchBar } from '../components';
+import { HeaderSearch, Map, PrimaryButton, SearchBar } from '../components';
 import { ScrollView } from 'react-native';
 import styled, { css } from 'styled-components/native';
 
@@ -10,13 +10,14 @@ export const SearchScreen = () => {
     }
 
     return (
-        <ScrollView keyboardShouldPersistTaps='handled'>
+        <>
             <HeaderSearch title='Agregar direccion de entrega' icon='location-outline' />
             <SearchBar />
 
-            <MapContainer>
-                {/*mapa*/}
-            </MapContainer>
+
+            {/* <MapContainer>
+                    <Map />
+                </MapContainer> */}
 
             <AdresssContainer>
                 <Title>Agregar información de entrega</Title>
@@ -24,17 +25,13 @@ export const SearchScreen = () => {
                 <TextArea />
                 <PrimaryButton text='AGREGAR DIRECCIÓN' onPress={search} />
             </AdresssContainer>
-        </ScrollView>
+        </>
     );
 };
 
 const MapContainer = styled.View`
-    justify-content: center,
-    align-items: center;
-    //background-color: red;
-    height: 200px;
-    margin-top: -30px;
-    z-index: -99;
+    height: 280px;
+    z-index: -999
 `
 const AdresssContainer = styled.View`
     padding: 40px 20px;

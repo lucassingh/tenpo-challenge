@@ -10,6 +10,12 @@ interface Props {
     subtitle: string
 }
 
+/**
+ * This FC return a FlatList C 
+ * @param param1 items array type Category[]
+ * @param param2 subtitle type string
+ * @returns Flatlist with array of categories with subtitle
+ */
 export const SliderCategories = ({ items, subtitle }: Props) => {
 
     return (

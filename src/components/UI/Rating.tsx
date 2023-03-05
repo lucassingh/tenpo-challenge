@@ -8,6 +8,12 @@ interface Props {
     rating: string
 }
 
+/**
+ * This FC show rating info
+ * @param param1 icon name type string
+ * @param param2 rating text type string
+ * @returns Rating component
+ */
 export const Rating = ({iconName, rating}: Props) => {
     return (
         <RatingContainer>
