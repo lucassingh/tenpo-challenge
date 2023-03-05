@@ -28,6 +28,24 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
     "styled-components": "^5.3.6"
   },
 ```
+### Dependencias de desarrollo
+
+```json
+"devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@testing-library/react-native": "^12.0.0-rc.1",
+    "@types/jest": "^29.4.0",
+    "@types/react": "~18.0.14",
+    "@types/react-native-vector-icons": "^6.4.13",
+    "@types/react-test-renderer": "^18.0.0",
+    "@types/styled-components": "^5.1.26",
+    "@types/styled-components-react-native": "^5.2.1",
+    "babel-plugin-styled-components": "^2.0.7",
+    "react-native-dotenv": "^3.4.8",
+    "typescript": "^4.9.4"
+  },
+```
+
 ### Estructura del proyecto
 
 ![image](https://user-images.githubusercontent.com/25686886/222984998-e07e5ec7-8916-4dab-8b97-b642367d6642.png)
@@ -52,5 +70,18 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
 4. Abrir el proyecto en el editor de codigo de su preferencia y crear en la raiz del proyecto un archivo `.env` y crear la variable de entorno de GOOGLE_API_KEY 
 `GOOGLE_API_KEY=your_api_key`
     - Advertencia: si no tiene Google api key asociada a ningun proyecto, puede crear una siguiendo los pasos en el siguiente video tutorial [aqui](https://www.youtube.com/results?search_query=create+google+api+key+for+maps)
+    - Una vez generada la api key de Google pegarla em el archivo creado `.env` ( verificar que el archivo `.env` este incorporado en el archivo `gitignore` para no subirlo a un futuro repositorio
+5. Ejecutar `yarn start` o `npm start`
+6. Este proyecto fue generado con EXPO Cli, el build de desarrollo generara un codigo QR en la pantalla donde hay varias opciones para la ejecución
+![image](https://user-images.githubusercontent.com/25686886/222987144-4449e4ac-556b-451e-a8a7-b41ea8206b8e.png)
+- Virtual device Android: Con Android Studio instalado (windows) ejecutar `open android` y se abrirá el dispositivo virtual que este instalado 
+- Virtual device IOS: Con XCode instalado (Mac) ejectuar `open ios` y se abrirá el dispositivo virtual que este instalado
+7. Si elegimos ver la app en el dispositivo físico podemos hacer:
+- Crear una cuenta en Expo accediendo [aqui](https://expo.dev/)
+- **spositivos Android:** desrgar la aplicación de Expo go desde la play store desde [aqui](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
+- Loguearse con el usario y pass de la cuenta que creamos anteriormente
+- **Dispositivos IOS:** Descargar la aplicación Expo Go en la app store [aqui](https://apps.apple.com/us/app/expo-go/id982107779)
+   
+
 
 
