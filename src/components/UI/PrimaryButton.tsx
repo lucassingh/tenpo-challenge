@@ -6,6 +6,12 @@ interface Props {
     onPress: () => void
 }
 
+/**
+ * This FC create a main button reusable
+ * @param param1 text type string
+ * @param param2 function to allow onPress event
+ * @returns primary button
+ */
 export const PrimaryButton = ({ text, onPress }: Props) => {
     return (
         <ContainerButton>
@@ -28,7 +34,6 @@ const CTA = styled.TouchableOpacity`
         width: 95%;
         height: 60px;
         border-radius: 7px;
-        //background-color: red;
         background-color: ${theme.colors.secondary}
         margin-top: 30px;
         display: flex;

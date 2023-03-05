@@ -10,6 +10,12 @@ interface Props {
     subtitle: string
 }
 
+/**
+ * This FC return a FlatList C 
+ * @param param1 items array type Favorite[]
+ * @param param2 subtitle type string
+ * @returns Flatlist with array of favorites with subtitle
+ */
 export const SliderFavorites = ({ items, subtitle }: Props) => {
 
     return (

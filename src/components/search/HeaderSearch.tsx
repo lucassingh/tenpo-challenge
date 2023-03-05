@@ -7,6 +7,12 @@ interface Props {
     icon: string
 }
 
+/**
+ * This FC return a header with title and icon for search screen
+ * @param param1 tltle type string
+ * @param param2 icon name type string
+ * @returns FC header
+ */
 export const HeaderSearch = ({title, icon}: Props) => {
     return (
         <>
@@ -22,7 +28,7 @@ export const HeaderSearch = ({title, icon}: Props) => {
 const Container = styled.View`
     ${({ theme }) => css`
         width: 100%;
-        height: 150px;
+        height: 170px;
         background-color: ${theme.colors.primary};
         display: flex;
         justify-content: center;

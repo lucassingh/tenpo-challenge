@@ -1,6 +1,10 @@
 import React from 'react';
 import styled, { css } from 'styled-components/native';
 
+/**
+ * This FC create a object to show offer items
+ * @returns offer compoenent
+ */
 export const Offer = () => {
     return (
         <OfferContainer>            

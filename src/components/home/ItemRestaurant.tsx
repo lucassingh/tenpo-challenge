@@ -10,6 +10,11 @@ interface Props {
     restaurant: Restaurant;
 }
 
+/**
+ * This FC return a card with information of each restaurant item
+ * @param param restaurant object type: Category
+ * @returns FC card restaurant
+ */
 export const ItemRestaurant = ({ restaurant }: Props) => {
     return (
         <>

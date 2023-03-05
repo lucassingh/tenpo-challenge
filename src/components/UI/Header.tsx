@@ -4,6 +4,10 @@ import styled, { css } from 'styled-components/native';
 import { imgHeader } from '../../../assets/imgs';
 import { UserNav } from './UserNav';
 
+/**
+ * This FC return a main header for home screen
+ * @returns Header
+ */
 export const Header = () => {
     return (
         <>
