@@ -82,11 +82,15 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
 7. Si elegimos ver la app en el dispositivo físico podemos hacer:
 - Crear una cuenta en Expo accediendo [aqui](https://expo.dev/)
 
-- **Dispositivos Android:** descargar la aplicación de Expo go desde la play store desde [aqui](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
+**Dispositivos Android:** 
+
+- Descargar la aplicación de Expo go desde la play store desde [aqui](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
 - Loguearse con el usario y pass de la cuenta que creamos anteriormente
 - Entrar a Expo app y scanear el QR de la consola para que genere el build de la aplicación.
 
-- **Dispositivos IOS:** Descargar la aplicación Expo Go en la app store [aqui](https://apps.apple.com/us/app/expo-go/id982107779)
+**Dispositivos IOS:** 
+
+- Descargar la aplicación Expo Go en la app store [aqui](https://apps.apple.com/us/app/expo-go/id982107779)
 - Loguearse con el usario y pass de la cuenta que creamos anteriormente
 - Abrir la cámara del dispositivo y escanear el código QR de la consola para generar el build de la aplicación.
    
