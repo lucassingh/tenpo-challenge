@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test main Layout component <Main /> Should match with snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F2F2F2",
+        "borderTopLeftRadius": 35,
+        "borderTopRightRadius": 35,
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": "auto",
+        "marginTop": -55,
+        "paddingBottom": 30,
+        "paddingLeft": 15,
+        "paddingRight": 0,
+        "paddingTop": 10,
+      },
+    ]
+  }
+/>
+`;

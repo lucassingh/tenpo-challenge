@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test OfferContainer and TextOffer in component in <Offer /> Should match with snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "backgroundColor": "#00BAA4",
+        "borderRadius": 20,
+        "display": "flex",
+        "height": 30,
+        "justifyContent": "center",
+        "paddingBottom": 5,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 5,
+        "position": "absolute",
+        "right": 7,
+        "top": -10,
+        "width": 30,
+        "zIndex": 10,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Test OfferContainer and TextOffer in component in <Offer /> Should match with snapshot 2`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#FFFFFF",
+        "fontSize": 7,
+      },
+    ]
+  }
+/>
+`;

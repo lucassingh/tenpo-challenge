@@ -26,8 +26,8 @@ const OfferContainer = styled.View`
         background: ${theme.colors.secondary};
         position: absolute;
         right: 7px;
-        top:-10px
-        z-index: 10 
+        top:-10px;
+        z-index: 10;
     `}    
 `
 

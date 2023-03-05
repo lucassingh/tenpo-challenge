@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Container and text in component in <CTA /> Should match with snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "backgroundColor": "#D4F9F5",
+        "borderTopLeftRadius": 35,
+        "borderTopRightRadius": 35,
+        "display": "flex",
+        "height": "15%",
+        "justifyContent": "start",
+        "paddingTop": "5%",
+        "width": "100%",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Test Container and text in component in <CTA /> Should match with snapshot 2`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#00BAA4",
+        "fontSize": 18,
+        "fontWeight": "500",
+        "width": "100%",
+      },
+    ]
+  }
+/>
+`;

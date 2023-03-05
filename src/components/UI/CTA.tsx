@@ -31,7 +31,7 @@ export const CTA = ({ text, icon }: Props) => {
     );
 };
 
-const Container = styled.View`
+export const Container = styled.View`
     ${({ theme }) => css`
         width: 100%;
         height: 15%;
