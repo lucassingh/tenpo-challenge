@@ -63,7 +63,7 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
 3. src
     - components: contienene las subs carpetas con los componentes usados en cada pantalla y los componentes usados en toda la app dentro de la carpeta UI
     - constants: archivo con constantes usadas en la app
-    - hooks: carpeta para los hooks personalizados
+    - Helpers: funciones aisladas que pueden importarse en cualquier componente
     - interfaces: carpeta con las interfaces utilizadas en el proyecto
     - navigation: contiene el archivo con la nevegacion de la app
     - screens: carpeta con las pantallas de la aplicacion
