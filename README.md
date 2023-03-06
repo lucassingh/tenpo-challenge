@@ -56,7 +56,7 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
 
 ### Estructura del proyecto
 
-![image](https://user-images.githubusercontent.com/25686886/222984998-e07e5ec7-8916-4dab-8b97-b642367d6642.png)
+![image](https://user-images.githubusercontent.com/25686886/223176576-436b348a-1a7b-4823-b3a9-07441826436b.png)
 
 1. __test__: Contiene una replica del folder src con los test de los componentes
 2. assets: continene las imagenes de splash e icono del proyecto junto con una carpeta imgs con las imagenes usadas en el proyecto
