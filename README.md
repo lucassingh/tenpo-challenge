@@ -9,7 +9,9 @@ EL proyecto consta de tres pantallas que muestran un home, una autorizacion del 
 
 ![WhatsApp Image 2023-03-06 at 09 37 59](https://user-images.githubusercontent.com/25686886/223112854-b43e8f92-676c-4d7c-b628-f8ec51498681.jpeg)
 
-![WhatsApp Image 2023-03-05 at 17 33 51 (1)](https://user-images.githubusercontent.com/25686886/222993520-d6c47195-19cc-43d5-9c3b-4d7bd65663e0.jpeg)
+![WhatsApp Image 2023-03-06 at 13 47 22](https://user-images.githubusercontent.com/25686886/223176222-54bbd95a-8b30-4c8a-bccb-2e85a971f7f5.jpeg)
+
+![WhatsApp Image 2023-03-06 at 13 43 12](https://user-images.githubusercontent.com/25686886/223176257-adf3efa7-4d9b-42e8-b05f-c8f5b21d226b.jpeg)
 
 ### Dependencias
 
